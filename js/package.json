@@ -1,0 +1,21 @@
+{
+    "name": "@nyu8/flarum-auth0",
+    "version": "1.0.0",
+    "description": "Sign into Flarum with Auth0.com",
+    "main": "index.js",
+    "repository": "https://github.com/nyu8/flarum-auth0",
+    "author": "NYU8 <dev@nyu8.com>",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "dev": "webpack --mode development --watch",
+        "build": "webpack --mode production"
+    },
+    "devDependencies": {
+        "flarum": "^0.1.0-beta.16",
+        "flarum-tsconfig": "^1.0.0",
+        "flarum-webpack-config": "^1.0.0",
+        "webpack": "^5.38.1",
+        "webpack-cli": "^4.7.0"
+    }
+}
