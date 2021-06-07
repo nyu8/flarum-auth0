@@ -1,6 +1,6 @@
 {
     "name": "nyu8/flarum-auth0",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Sign into Flarum with Auth0.com.",
     "type": "flarum-extension",
     "license": "MIT",
