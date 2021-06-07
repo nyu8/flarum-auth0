@@ -1,1 +1,1 @@
-export * from './src/admin';
+import './src/admin';

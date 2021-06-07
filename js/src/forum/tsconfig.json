@@ -1,7 +1,0 @@
-{
-  "extends": "flarum-tsconfig/tsconfig.json",
-  "compilerOptions": {
-    "rootDir": ".",
-    "declarationDir": "./dist-typings",
-  }
-}
