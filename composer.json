@@ -17,7 +17,7 @@
     ],
     "require": {
         "flarum/core": "^1.0",
-        "riskio/oauth2-auth0": "^2.4"
+        "auth0/auth0-php": "^7.9"
     },
     "extra": {
         "flarum-extension": {

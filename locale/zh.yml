@@ -1,0 +1,13 @@
+nyu8-auth0:
+  admin:
+    domain_label: Auth0 域名
+    domain_help: "完整 Auth0 服务入口域名，如: nyu8.us.auth0.com"
+    client_id_label: Auth0 客户端 ID
+    client_secret_label: Auth0 客户端密钥
+    login_button_title_label: 登录按钮标题
+    login_button_title_help: '默认："{default}"'
+    login_button_title_default: => nyu8-auth0.forum.login_button_title_default
+    hide_password_login_label: 隐藏账号密码登录方式
+  forum:
+    login_button_title_default: 使用 Auth0 登入
+    email_unverified_message: 请您先完成邮箱验证

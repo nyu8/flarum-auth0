@@ -1,0 +1,13 @@
+nyu8-auth0:
+  admin:
+    domain_label: Auth0 Domain
+    domain_help: "Full Auth0 service domain, e.g.: nyu8.us.auth0.com"
+    client_id_label: Auth0 Client ID
+    client_secret_label: Auth0 Client Secret
+    login_button_title_label: Login button title
+    login_button_title_help: 'Default: "{default}"'
+    login_button_title_default: => nyu8-auth0.forum.login_button_title_default
+    hide_password_login_label: Hide username/password sign-in
+  forum:
+    login_button_title_default: Sign in with Auth0
+    email_unverified_message: Please verify your email address before sign-in
